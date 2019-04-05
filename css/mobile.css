@@ -1,0 +1,91 @@
+body {
+  padding: 1rem;
+  /* margin: 2rem; */
+}
+
+.grid-template {
+  display: flex;
+  flex-direction: column;
+}
+
+/* PERSONAL CARD */
+.card {
+  width: auto;
+  height: auto;
+  position: absolute;
+  margin-right: 1rem;
+}
+
+.social-wrapper {
+  margin-bottom: 1.5rem;
+}
+
+/* NAVIGATION BAR */
+.main-nav {
+  display: flex;
+  position: relative;
+  top: 570px;
+  height: auto;
+  width: 100%;
+}
+
+.main-nav button {
+  border-bottom: none;
+  height: auto;
+  width: 100%;
+  font-size: 10px;
+  padding: 1rem;
+}
+
+/* MAIN CONTENT */
+.content {
+  position: relative;
+  width: 100%;
+  top: 580px;
+  margin-right: 2rem;
+  height: fit-content;
+  margin-bottom: 1rem;
+}
+
+.experience-wrapper, .personal-skills {
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  margin: 0.5rem 0rem;
+}
+
+.portfolio-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  padding: 1.5rem 0rem;
+}
+
+.clients-wrapper {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 10px;
+  padding: 1.5rem 0rem; 
+}
+
+.particulars-info td {
+  display: block;
+  padding: 2px;
+}
+
+.contact-address {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-address .box {
+  width: 100%;
+  font-size: 12px;
+}
+
+input {
+  border: 1px solid lightgrey;
+  /* width: 250px; */
+}
